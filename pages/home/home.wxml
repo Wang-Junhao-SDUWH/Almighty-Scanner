@@ -1,0 +1,13 @@
+<view class='container'>
+  <view class='title-box'>
+  <image src='./img/title.png' class='title-img'></image>
+  </view>
+  <view class='image-box'>
+    <image src="{{usr_img}}" class='main-img' style="width:{{img_width}}rpx; height:{{img_height}}rpx;" bindload="size_adaption" bindlongpress="save_pic_auth" data-url="{{usr_img}}"></image>
+  </view>
+  <view class='btn-box'>
+    <button class="func-btn" bindtap="fetch_pic">打开图片</button>
+    <button class="func-btn" bindtap="clean_pic">扫描图片</button>
+  </view>
+  <image src='img/sduwh.jpg' class='sduwh'></image>
+</view>
